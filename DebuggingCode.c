@@ -47,6 +47,7 @@ int data;
 scanf("%d", data);
 insertEnd(&head, data);
 }
+printf("Linked List in reverse: ");
 printReverse(head);
 
 return 0;
